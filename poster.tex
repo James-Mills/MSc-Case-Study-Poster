@@ -1,7 +1,7 @@
 \documentclass[landscape,color=UCLdarkred,margin=3cm]{uclposter}
 
-%\usepackage{amsmath,amssymb}
-%\usepackage{amsthm}
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
 \usepackage{xcolor}
 \usepackage{eso-pic}
 \usepackage{authblk}
@@ -10,7 +10,7 @@
 %\usepackage{ulgothic}
 \usepackage{graphicx}
 \usepackage{float}
-%\usepackage{physics}
+\usepackage{physics}
 
 \title{Scalable Quantum Simulation of Molecular Energies}
 
@@ -68,15 +68,15 @@ No additional files are needed (the banner/logo is included entirely as vector d
 
 \begin{figure}[H]
   \begin{center}
-  \begin{minipage}[c]{16em}
+  \begin{minipage}[c]{12em}
     
-    \includegraphics[width=16em]{VQEdiagram.pdf}
+    \includegraphics[width=10em]{VQEdiagram.pdf}
     \caption{VQE}
   \end{minipage}
   \qquad
-  \begin{minipage}[c]{18em}
+  \begin{minipage}[c]{12em}
     \centering
-    \includegraphics[width=18em]{PEA.pdf}
+    \includegraphics[width=10em]{PEA.pdf}
     \caption{PEA}
   \end{minipage}
   \end{center}
@@ -84,12 +84,7 @@ No additional files are needed (the banner/logo is included entirely as vector d
    
 \end{figure}
 
-\begin{tikzpicture}
-	\foreach \x[count=\xi] in {UCLlightpurple, UCLdarkpurple, UCLpurple, UCLblueceleste, UCLlightblue, UCLskyblue, UCLbrightblue, UCLnavyblue, UCLdarkblue, UCLdarkgreen, UCLmidgreen, UCLbrightgreen, UCLlightgreen, UCLstone, UCLdarkgrey, UCLdarkbrown, UCLdarkred, UCLburgundy, UCLpink, UCLrichred, UCLmidred, UCLorange, UCLyellow, UCLwhite, UCLblack}
-	{
-	\fill[fill=\x] (0,-\xi) rectangle +(0.9,0.9) node[anchor=north west, inner sep=3pt] {\x};
-	}
-\end{tikzpicture}
+
 
 \columnbreak
 
