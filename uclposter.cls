@@ -113,6 +113,7 @@
 \titlespacing{\subsubsection}{0pt}{\parskip}{-0.8\parskip}
 
 % font
+\RequirePackage{avant}
 \RequirePackage{amsmath}
 \RequirePackage{mathtools}
 \RequirePackage{mathspec}
