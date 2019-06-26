@@ -114,6 +114,7 @@
 
 % font
 \RequirePackage{avant}
+\RequirePackage{helvet}
 \RequirePackage{amsmath}
 \RequirePackage{mathtools}
 \RequirePackage{mathspec}
