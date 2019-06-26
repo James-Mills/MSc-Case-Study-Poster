@@ -114,11 +114,12 @@
 
 % font
 \RequirePackage{avant}
+\RequirePackage{helvet}
 \RequirePackage{amsmath}
 \RequirePackage{mathtools}
 \RequirePackage{mathspec}
 \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
-\setallmainfonts{Helvetica}
+%\setallmainfonts{Helvetica}
 \setsansfont{URW Gothic L}
 %\setallmainfonts{EB Garamond}
 \newfontfamily{\bannerfont}{URW Gothic L}[WordSpace=1.2]
