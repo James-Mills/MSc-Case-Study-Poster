@@ -113,12 +113,13 @@
 \titlespacing{\subsubsection}{0pt}{\parskip}{-0.8\parskip}
 
 % font
+\RequirePackage{amsmath}
 \RequirePackage{mathtools}
 \RequirePackage{mathspec}
 \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 %\setallmainfonts{Helvetica}
 \setsansfont{URW Gothic L}
-\setallmainfonts{EB Garamond}
+%\setallmainfonts{EB Garamond}
 \newfontfamily{\bannerfont}{URW Gothic L}[WordSpace=1.2]
 
 %-------------------------------------------------------------------------------
