@@ -1,4 +1,4 @@
-\documentclass[14pt,landscape,color=UCLdarkred,margin=3cm]{uclposter}
+\documentclass[16pt,landscape,color=UCLdarkred,margin=3cm]{uclposter}
 
 \usepackage{amsmath,amssymb}
 \usepackage{amsthm}
@@ -7,19 +7,18 @@
 \usepackage{authblk}
 \usepackage{tikz}
 \usepackage{environ}
-%\usepackage{ulgothic}
 \usepackage{graphicx}
 \usepackage{float}
 %\usepackage{physics}
 
 \title{Scalable Quantum Simulation of Molecular Energies}
 
-\author[1 *]{Shuhao Yang}
-\author[1,2]{James Mills}
-\author[1,2]{Shanice St John}
+\author{Shuhao Yang}
+\author{James Mills}
+\author{Shanice St John}
 \affil[1]{Department of LaTeX Studies, UCL}
-\affil[2]{TikZ, UCL}
-\affil[*]{a.example@ucl.ac.uk}
+% \affil[2]{TikZ, UCL}
+% \affil[*]{a.example@ucl.ac.uk}
 
 \begin{document}
 
@@ -42,20 +41,22 @@ Simulating systems in quantum chemistry is one of those problems too difficult f
 
 
 \begin{highlightbox}[UCLdarkblue!20!white]
-	\textbf{Qubit} For representation, we describe information as qubit in quantum mechanics. It is an analogous concept of bit in information theory as we used in classical computer.
+	\textbf{Qubit} For representation, we describe information as qubit in quantum mechanics. It is an analogous concept of the classical bit in which classical information is encoded in 0s and 1s.
 \end{highlightbox}
 
-\begin{highlightbox}[UCLdarkblue!20!white]
+\begin{highlightbox}[UCLmidgreen!20!white]
 \textbf{Algorithm} A set of instructions used to solve a problem, especially by a computer. The instructions are created so that it can be understood by the computer. This is then sent to the quantum computer. The computer then follows the instructions using some program or software. The end of the process provides an answer or even many possible answers.
 \end{highlightbox}
 
-\begin{highlightbox}[UCLdarkblue!20!white]
-	Qubit
+\begin{highlightbox}[UCLstone!50!white]
+	\textbf{Superposition} A qubit can be in both states of '0' and '1' at the same time, but a classical bit is either `0' or `1'.
 \end{highlightbox}
 
 \columnbreak
 
 \section*{Techniques in Paper}
+VQE and PEA are two types of algorithm which is performed by a special type of computer known as the quantum computer.
+
 
 
 
@@ -68,7 +69,7 @@ Simulating systems in quantum chemistry is one of those problems too difficult f
   \end{minipage}
   \qquad
   \begin{minipage}[c]{13em}
-    \centering
+    
     \includegraphics[width=13em]{PEA.pdf}
     \caption{PEA}
   \end{minipage}
