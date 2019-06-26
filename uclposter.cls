@@ -113,16 +113,13 @@
 \titlespacing{\subsubsection}{0pt}{\parskip}{-0.8\parskip}
 
 % font
-% \RequirePackage[T1]{fontenc}
-% \RequirePackage{textcomp}
-% \RequirePackage{ulgothic}
 \RequirePackage{mathtools}
 \RequirePackage{mathspec}
 \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 %\setallmainfonts{Helvetica}
-% \setsansfont{URW's Letter Gothic}
-% \setallmainfonts{EB Garamond}
-% \newfontfamily{\bannerfont}{URW Gothic L}[WordSpace=1.2]
+\setsansfont{URW Gothic L}
+\setallmainfonts{EB Garamond}
+\newfontfamily{\bannerfont}{URW Gothic L}[WordSpace=1.2]
 
 %-------------------------------------------------------------------------------
 % Official colours

@@ -1,10 +1,5 @@
-
-
-
 \documentclass[landscape,color=UCLdarkred,margin=3cm]{uclposter}
 
-\usepackage[T1]{fontenc}
-\usepackage{lmodern,textcomp}
 \usepackage{amsmath,amssymb}
 \usepackage{amsthm}
 \usepackage{xcolor}
@@ -12,16 +7,15 @@
 \usepackage{authblk}
 \usepackage{tikz}
 \usepackage{environ}
-\usepackage{ulgothic}
+%\usepackage{ulgothic}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{physics}
 
-\title{Scalable Quantum Simulation of Molecular Energies}
+\title{A UCL poster class for LaTeX}
 
-\author[1 *]{Shuhao Yang}
-\author[1,2]{James Mills}
-\author[1,2]{Shanice St John}
+\author[1 *]{Anne Example}
+\author[1,2]{Ann Other}
 \affil[1]{Department of LaTeX Studies, UCL}
 \affil[2]{TikZ, UCL}
 \affil[*]{a.example@ucl.ac.uk}
@@ -30,7 +24,7 @@
 
 \maketitle
 
-\begin{multicols}{3}
+\begin{multicols}{4}
 
 \section*{Introduction}
 A poster class for \LaTeX that attempts to follow the UCL Corporate Identity.
@@ -51,18 +45,6 @@ No additional files are needed (the banner/logo is included entirely as vector d
 
 \begin{highlightbox}[UCLdarkblue!20!white]
 	The colour of a \textbackslash highlightbox can also be changed.
-\end{highlightbox}
-
-\begin{highlightbox}[UCLdarkblue!20!white]
-	Qubit
-\end{highlightbox}
-
-\begin{highlightbox}[UCLdarkblue!20!white]
-	Qubit
-\end{highlightbox}
-
-\begin{highlightbox}[UCLdarkblue!20!white]
-	Qubit
 \end{highlightbox}
 
 \columnbreak
@@ -88,7 +70,6 @@ No additional files are needed (the banner/logo is included entirely as vector d
 
    
 \end{figure}
-
 \begin{tikzpicture}
 	\foreach \x[count=\xi] in {UCLlightpurple, UCLdarkpurple, UCLpurple, UCLblueceleste, UCLlightblue, UCLskyblue, UCLbrightblue, UCLnavyblue, UCLdarkblue, UCLdarkgreen, UCLmidgreen, UCLbrightgreen, UCLlightgreen, UCLstone, UCLdarkgrey, UCLdarkbrown, UCLdarkred, UCLburgundy, UCLpink, UCLrichred, UCLmidred, UCLorange, UCLyellow, UCLwhite, UCLblack}
 	{
@@ -98,13 +79,8 @@ No additional files are needed (the banner/logo is included entirely as vector d
 
 \columnbreak
 
-\section*{Conclusion and Outlook}
 
-\begin{highlightbox}[UCLdarkblue!20!white]
-	The colour of a \textbackslash highlightbox can also be changed.
-\end{highlightbox}
-
-
+\columnbreak
 
 \end{multicols}
 	
