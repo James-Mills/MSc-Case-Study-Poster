@@ -26,7 +26,7 @@
 
 \begin{multicols}{3}
 
-\section*{Introduction}
+\section*{The problem we have}
 
 
 Quantum computing is a rapidly advancing field predicted to revolutionise many
@@ -57,17 +57,21 @@ Simulating systems in quantum chemistry is a problem too difficult for classical
 
 \columnbreak
 
-\section*{Techniques in Paper}
+\section*{What are the techniques?}
 The work by the researchers on the paper `Scalable Quantum Simulation of Molecular Energies' uses supercooled quantum qubits to run algorithms to find out information about the fundamental properties of molecules.
 The variational quantum eigensolver (VQE) and the phase estimation algorithm (PEA) are two types of algorithm which are performed on the qubit hardware to find molecular energies. A special type of quantum hardware known as Superconducting Quantum Interference Devices (SQUIDs) is used to run the algorithms. This type of qubit has a superposition of ``charged" states and can be used in quantum circuits.
-\par
+\\
 \begin{figure}[H]
   \begin{center}
 %   \begin{minipage}[c]{15em}
+\setlength{\fboxsep}{0.5em}
   \begin{minipage}[c]{9em}
-    % \includegraphics[width=15em]{VQEdiagram.pdf}
-    \includegraphics[width=9em]{4_Qubit.png}
+  \begin{center}
+  \includegraphics[width=7em]{4_Qubit.png}
     \caption{IBM qubit}
+  \end{center}
+    % \includegraphics[width=15em]{VQEdiagram.pdf}
+    
   \end{minipage}
   \qquad
 %   \begin{minipage}[c]{18em}
@@ -75,13 +79,14 @@ The variational quantum eigensolver (VQE) and the phase estimation algorithm (PE
   \large
 
 The qubits used to run the algorithms were a type of charge qubit (the qubit is in a superposition of two different charges - see Superposition box) that is kept at very low temperatures. It is similar to the IMB qubit shown in Figure 1.
+
   \end{minipage}
   \end{center}
 
    
 \end{figure}
 
-\subsection*{VQE}
+\section*{Algorithms for Quantum Chemistry}
 
 The VQE algorithm uses the averages of the total energy so that the energy of a molecule can be calculated.
 
@@ -93,9 +98,6 @@ The VQE algorithm uses the averages of the total energy so that the energy of a 
 \item All steps are repeated until we reach the smallest value possible.
 \end{itemize}
 \end{highlightbox}
-
-\subsection*{PEA}
-
 
 PEA is the algorithm estimate the value of index over exponential coefficient in order to work out energy of a molecule.
 
@@ -114,16 +116,16 @@ PEA is the algorithm estimate the value of index over exponential coefficient in
 \begin{figure}[H]
   \begin{center}
 %   \begin{minipage}[c]{15em}
-  \begin{minipage}[c]{16em}
+  \begin{minipage}[c]{18em}
     % \includegraphics[width=15em]{VQEdiagram.pdf}
-    \includegraphics[width=16em]{VQEdiagram.pdf}
+    \includegraphics[width=18em]{VQEdiagram.pdf}
     \caption{VQE}
   \end{minipage}
   \qquad
 %   \begin{minipage}[c]{18em}
-  \begin{minipage}[c]{15em}
+  \begin{minipage}[c]{17em}
     % \includegraphics[width=18em]{PEA.pdf}
-    \includegraphics[width=15em]{PEA.pdf}
+    \includegraphics[width=17em]{PEA.pdf}
     \caption{PEA}
   \end{minipage}
   \end{center}
@@ -133,9 +135,9 @@ PEA is the algorithm estimate the value of index over exponential coefficient in
 
 
 
-\section*{Conclusion and Outlook}
+\section*{Outlook}
 
-
+The VQE was proven to work better than PEA because it gives more accurate results, this can be seen on Figure 4 where the VQE line is closer than the PEA line to the line representing the exact energy. This ability to simulate the quantum behaviour of atoms and molecules is hoped to offer new avenues for increasing our understanding of the world around us, and our ability to develop new medicines and materials!
 
 \begin{figure}[H]
   \begin{center}
@@ -148,7 +150,6 @@ PEA is the algorithm estimate the value of index over exponential coefficient in
    
 \end{figure}
 
-VQE was proven to work better than PEA because it gives more accurate results. Therefore, it is used more than PEA. Creating more algorithms such as VQE can lead to making new medicines, materials and other cool applications!
 
 
 \end{multicols}
