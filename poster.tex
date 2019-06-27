@@ -57,20 +57,31 @@ Simulating systems in quantum chemistry is a problem too difficult for classical
 VQE and PEA are two types of algorithm which is performed by a special type of computer known as the quantum computer.
 
 
-To be moved later to appropriate section:
 
-Simulating systems in quantum chemistry is one of those problems too difficult for classical computers. Efficient simulation of quantum chemistry experiments it would enable a dramatic leap forward in our understanding of fundamental chemistry, and be hugely impactful to a number of fields of endeavour. For example it would significantly reduce the need for cumbersome and expensive trial-and-error techniques in the development of new medicines and materials.
 
 \subsection*{VQE}
-VQE outline:
-\begin{itemize}
+\begin{highlightbox}[UCLdarkblue!20!white]
+  \begin{itemize}
 \item Firstly, we start by preparing a state using a "special" method. This method makes it possible for the algorithm run in the way that we want.
 \item Secondly, we measure the total energy for each value of the distance. We must select the lowest value as we are focusing on the ground energy.
 \item After that, a tool is then used to find more lower values of the total energy.
 \item All steps are repeated until we reach the smallest value possible.
 \end{itemize}
+\end{highlightbox}
+
 \subsection*{PEA}
-PEA is the algorithm estimate the value of index over exponential coefficient.
+PEA is the algorithm estimate the value of index over exponential coefficient in order to work out molecule energy.
+
+\begin{highlightbox}[UCLdarkblue!20!white]
+\begin{itemize}
+\item Similarly to the VQE algorithm, we must prepare a state using another "special" method since these are two different algorithms. 
+\item Next, some "magical" equipment must be set up in a superposition of states - this will make it possible to measure the state.
+\item Then, we use some operations to set up the state and the apparatus so that it is ready to be measured. 
+\item Finally, we measure the state to find the lowest value of the total energy. We repeat this process until find an accurate value of the total energy.
+\end{itemize}
+\end{highlightbox}
+
+
 
 \begin{figure}[H]
   \begin{center}
@@ -94,13 +105,10 @@ PEA is the algorithm estimate the value of index over exponential coefficient.
 
 
 
-\columnbreak
-
 \section*{Conclusion and Outlook}
 
-\begin{highlightbox}[UCLdarkblue!20!white]
-	The colour of a \textbackslash highlightbox can also be changed.
-\end{highlightbox}
+%To be moved later to appropriate section:
+Simulating systems in quantum chemistry is one of those problems too difficult for classical computers. If we can efficiently simulate quantum chemistry experiments it would enable a dramatic leap forward in our understanding of fundamental chemistry, and be hugely impactful to a number of fields of endeavour. For example it would significantly reduce the need for cumbersome and expensive trial-and-error techniques in the development of new medicines and materials.
 
 \begin{figure}[H]
   \begin{center}
