@@ -59,13 +59,15 @@ Simulating systems in quantum chemistry is one of those problems too difficult f
 \section*{Techniques in Paper}
 VQE and PEA are two types of algorithm which is performed by a special type of computer known as the quantum computer.
 
-VQE outline:
-- Firstly, we start by preparing a state using a "special" method. This method makes it possible for the algorithm run in the way that we want.
-- Secondly, we measure the total energy for each value of the distance. We must select the lowest value as we are focusing on the ground energy.
-- After that, a tool is then used to find more lower values of the total energy.
-- All steps are repeated until we reach the smallest value possible.
-\subsection*{VQE}
 
+\subsection*{VQE}
+VQE outline:
+\begin{itemize}
+\item Firstly, we start by preparing a state using a "special" method. This method makes it possible for the algorithm run in the way that we want.
+\item Secondly, we measure the total energy for each value of the distance. We must select the lowest value as we are focusing on the ground energy.
+\item After that, a tool is then used to find more lower values of the total energy.
+\item All steps are repeated until we reach the smallest value possible.
+\end{itemize}
 \subsection*{PEA}
 PEA is the algorithm estimate the value of index over exponential coefficient.
 
