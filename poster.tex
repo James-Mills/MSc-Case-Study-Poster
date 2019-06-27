@@ -28,7 +28,7 @@
 
 \section*{Introduction}
 Quantum computing is a rapidly advancing field predicted to revolutionise many
-areas of science and technology. It is predicted to have important real-world applications in encryption and communication systems and in the development of new medicines and materials to name but a few. An important point is that these quantum computers are not considered a replacement to classical computers, they will only be brought to bear on certain types of problems too difficult for classical computers.
+areas of science and technology. It is predicted to have important real-world applications in encryption and communication systems and in the development of new medicines and materials to name but a few. An important point is that these quantum computers are not considered a replacement to classical computers, they will only be brought to bear on certain types of problems which are too difficult for classical computers to solve. Classical computers is a term used to describe all everyday computational computing devices which rely on classical (non-quantum) phenomena to compute.
 
 Simulating systems in quantum chemistry is one of those problems too difficult for classical computers. If we can efficiently simulate quantum chemistry experiments it would enable a dramatic leap forward in our understanding of fundamental chemistry, and be hugely impactful to a number of fields of endeavour. For example it would significantly reduce the need for cumbersome and expensive trial-and-error techniques in the development of new medicines and materials.
 
@@ -50,13 +50,20 @@ Simulating systems in quantum chemistry is one of those problems too difficult f
 \textbf{Algorithm} A set of instructions used to solve a problem, especially by a computer. The instructions are created so that it can be understood by the computer. This is then sent to the quantum computer. The computer then follows the instructions using some program or software. The end of the process provides an answer or even many possible answers.
 \end{highlightbox}
 
-
+\begin{highlightbox}[UCLyellow!20!white]
+\textbf{Quantum simulation in chemistry} Quantum theory is our best description of phenomena in happening at the smallest scales imaginable. Simulating quantum systems with classical computers extremely difficult, and becomes increasingly difficult as the size of the system increases. Quantum simulations with quantum computing hardware are much easier, as we are using quantum phenomena (the same phenomena that make the system difficult to describe with a classical computer) to boost our computing power.
+\end{highlightbox}
 
 \columnbreak
 
 \section*{Techniques in Paper}
 VQE and PEA are two types of algorithm which is performed by a special type of computer known as the quantum computer.
 
+VQE outline:
+- Firstly, we start by preparing a state using a "special" method. This method makes it possible for the algorithm run in the way that we want.
+- Secondly, we measure the total energy for each value of the distance. We must select the lowest value as we are focusing on the ground energy.
+- After that, a tool is then used to find more lower values of the total energy.
+- All steps are repeated until we reach the smallest value possible.
 \subsection*{VQE}
 
 \subsection*{PEA}
