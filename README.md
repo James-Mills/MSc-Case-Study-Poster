@@ -23,4 +23,10 @@ VQE outline:
 
 - All steps are repeated until we reach the smallest value possible.
 
+PEA outline:
+- Similarly to the VQE algorithm, we must prepare a state using another "special" method since these are two different algorithms.
+- Next, some "magical" equipment must be set up in a superposition of states - this will make it possible to measure the state.
+- Then, we use some operations to set up the state and the apparatus so that it is ready to be measured.
+- Finally, we measure the state to find the lowest value of the total energy. We repeat this process until find an accurate value of the total energy.
+
 
