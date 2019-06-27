@@ -29,6 +29,6 @@ Then, we use some operations to set up the state and the apparatus so that it is
 Finally, we measure the state to find the lowest value of the total energy. We repeat this process until find an accurate value of the total energy.
 
 Conclusion:
-VQE was proven to work better than PEA because it gives more accurate results. Therefore, it is used more than PEA. To use both algorithms, a special type of quantum hardware known as Superconducting Quantum Interference Devices (SQUID). This type of qubit has a superposition of "charged" states and can be used in quantum circuits.
+VQE was proven to work better than PEA because it gives more accurate results. Therefore, it is used more than PEA. To use both algorithms, a special type of quantum hardware known as Superconducting Quantum Interference Devices (SQUIDs). This type of qubit has a superposition of "charged" states and can be used in quantum circuits.
 
 Creating more algorithms such as VQE can lead to making new medicinces, materials and other cool applications!
