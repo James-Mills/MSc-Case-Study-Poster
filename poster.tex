@@ -60,18 +60,18 @@ Simulating systems in quantum chemistry is a problem too difficult for classical
 \section*{Techniques in Paper}
 The work by the researchers on the paper `Scalable Quantum Simulation of Molecular Energies' uses supercooled quantum qubits to run algorithms to find out information about the fundamental properties of molecules.
 The variational quantum eigensolver (VQE) and the phase estimation algorithm (PEA) are two types of algorithm which are performed on the qubit hardware to find molecular energies. A special type of quantum hardware known as Superconducting Quantum Interference Devices (SQUIDs) is used to run the algorithms. This type of qubit has a superposition of ``charged" states and can be used in quantum circuits.
-
+\par
 \begin{figure}[H]
   \begin{center}
 %   \begin{minipage}[c]{15em}
-  \begin{minipage}[c]{10em}
+  \begin{minipage}[c]{9em}
     % \includegraphics[width=15em]{VQEdiagram.pdf}
-    \includegraphics[width=10em]{4_Qubit.png}
+    \includegraphics[width=9em]{4_Qubit.png}
     \caption{IBM qubit}
   \end{minipage}
   \qquad
 %   \begin{minipage}[c]{18em}
-  \begin{minipage}[c]{28em}
+  \begin{minipage}[c]{29em}
   \large
 
 The qubits used to run the algorithms were a type of charge qubit (the qubit is in a superposition of two different charges - see Superposition box) that is kept at very low temperatures. It is similar to the IMB qubit shown in Figure 1.
@@ -81,14 +81,14 @@ The qubits used to run the algorithms were a type of charge qubit (the qubit is 
    
 \end{figure}
 
-
-
-
 \subsection*{VQE}
+
+The VQE algorithm uses the averages of the total energy so that the energy of a molecule can be calculated.
+
 \begin{highlightbox}[UCLpink!20!white]
   \begin{itemize}
 \item Firstly, we start by preparing a state using a ``special" method. This method makes it possible for the algorithm run in the way that we want.
-\item Secondly, we measure the total energy for each value of the distance. We must select the lowest value as we are focusing on the ground energy.
+\item Secondly, we measure the total energy for each distance between the molecules. We must select the lowest value as we are focusing on the ground energy.
 \item After that, a tool is then used to find more lower values of the total energy.
 \item All steps are repeated until we reach the smallest value possible.
 \end{itemize}
@@ -98,6 +98,7 @@ The qubits used to run the algorithms were a type of charge qubit (the qubit is 
 
 
 PEA is the algorithm estimate the value of index over exponential coefficient in order to work out energy of a molecule.
+
 
 \begin{highlightbox}[UCLpurple!20!white]
 \begin{itemize}
@@ -120,9 +121,9 @@ PEA is the algorithm estimate the value of index over exponential coefficient in
   \end{minipage}
   \qquad
 %   \begin{minipage}[c]{18em}
-  \begin{minipage}[c]{16em}
+  \begin{minipage}[c]{15em}
     % \includegraphics[width=18em]{PEA.pdf}
-    \includegraphics[width=16em]{PEA.pdf}
+    \includegraphics[width=15em]{PEA.pdf}
     \caption{PEA}
   \end{minipage}
   \end{center}
