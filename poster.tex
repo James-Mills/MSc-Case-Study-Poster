@@ -20,7 +20,7 @@
 % \affil[2]{TikZ, UCL}
 % \affil[*]{a.example@ucl.ac.uk}
 
-\begin{document}%\large
+\begin{document}\large
 
 \maketitle
 
@@ -29,9 +29,34 @@
 \section*{A new era for computing}
 
 
-Quantum computing is a rapidly advancing field predicted to have important applications, some of which are encryption, communication and in the development of new medicines and materials. Quantum computers are not considered to be a replacement for classical computers; they will only be useful for certain types of problems which are too difficult for classical computers to solve, such as simulating systems in quantum chemistry.
+Quantum computing is a rapidly advancing field predicted to have important applications, some of which are encryption, communication and in the development of new medicines and materials. 
+
+Quantum computers are not considered to be a replacement for classical computers; they will only be useful for certain types of problems which are too difficult for classical computers to solve, such as simulating systems in quantum chemistry.
+\\
+\begin{figure}[H]
+  \begin{center}
+%   \begin{minipage}[c]{15em}
+\setlength{\fboxsep}{0.5em}
+  \begin{minipage}[c]{12em}
+  \begin{center}
+  \includegraphics[width=13em]{QUBIT.png}
+  \end{center}
+    % \includegraphics[width=15em]{VQEdiagram.pdf}
+    
+  \end{minipage}
+  \qquad
+  % \begin{minipage}[c]{20em}
+  \begin{minipage}[c]{26em}
+  \large
 
 Quantum simulations in chemistry would enable a leap forward in our understanding of fundamental chemistry, and reduce the need for lengthy and expensive trial-and-error techniques used to develop new medicines and materials.
+
+  \end{minipage}
+  \end{center}
+
+   
+\end{figure}
+
 
 \section*{Key terms}
 
@@ -66,18 +91,18 @@ The work done in the paper `Scalable Quantum Simulation of Molecular Energies' u
   \begin{center}
 %   \begin{minipage}[c]{15em}
 \setlength{\fboxsep}{0.5em}
-  \begin{minipage}[c]{9em}
+  \begin{minipage}[c]{8em}
   \begin{center}
-  \includegraphics[width=7em]{4_Qubit.png}
+  \includegraphics[width=8em]{4_Qubit.png}
     \caption{IBM qubit}
   \end{center}
     % \includegraphics[width=15em]{VQEdiagram.pdf}
     
   \end{minipage}
   \qquad
-  \begin{minipage}[c]{20em}
-%   \begin{minipage}[c]{29em}
-  %\large
+  % \begin{minipage}[c]{20em}
+  \begin{minipage}[c]{30em}
+  \large
 
 The qubits used to run the algorithms were a type of charge qubit that is kept at very low temperatures and is similar to this IBM qubit.
 
@@ -95,7 +120,7 @@ VQE uses the averages of the total energy to calculate the energy of a molecule.
   \begin{enumerate}
 \item Prepare a starting state. 
 \item Measure the total energy for each distance between molecules. We must select the lowest value (the ground energy).
-\item A tool is then used to find more lower values of the total energy.
+\item Use a tool to find more lower values of the total energy.
 \item Repeat until we reach the smallest value possible.
 \end{enumerate}
 \end{highlightbox}
@@ -107,26 +132,27 @@ PEA estimates the index value over exponential coefficients to calculate energy 
 \begin{enumerate}
 \item Prepare a starting state, and encode information onto an exponential coefficient. 
 \item Some equipment must be set up in a superposition of states - this will make it possible to measure the state.
-\item We use operations to set up the state and the apparatus so that it is ready to be measured. 
+\item Use operations to set up the state and the apparatus so that it is ready to be measured. 
 \item Measure the state to find the lowest value of the total energy. We repeat this process until find an accurate value of the total energy.
 \end{enumerate}
 \end{highlightbox}
 
 
-
+\columnbreak
+\bigskip
 \begin{figure}[H]
   \begin{center}
-   \begin{minipage}[c]{15em}
-%  \begin{minipage}[c]{18em}
-    \includegraphics[width=15em]{VQEdiagram.pdf}
-    % \includegraphics[width=18em]{VQEdiagram.pdf}
+   % \begin{minipage}[c]{15em}
+ \begin{minipage}[c]{19em}
+    % \includegraphics[width=15em]{VQEdiagram.pdf}
+    \includegraphics[width=19em]{VQEdiagram.pdf}
     \caption{VQE}
   \end{minipage}
   \qquad
-  \begin{minipage}[c]{15em}
-%   \begin{minipage}[c]{17em}
-    \includegraphics[width=15em]{PEA.pdf}
-    % \includegraphics[width=17em]{PEA.pdf}
+  % \begin{minipage}[c]{15em}
+  \begin{minipage}[c]{18em}
+    % \includegraphics[width=15em]{PEA.pdf}
+    \includegraphics[width=18em]{PEA.pdf}
     \caption{PEA}
   \end{minipage}
   \end{center}
@@ -138,11 +164,11 @@ PEA estimates the index value over exponential coefficients to calculate energy 
 
 \section*{Outlook}
 
-VQE was proven to work better than PEA because it gives more accurate results as shown in Figure 4. This ability to simulate the quantum behaviour of atoms and molecules is hoped to offer new avenues for increasing our understanding of the world around us, and our ability to develop new medicines and materials!
+VQE works better than PEA because it gives more accurate results as shown in Figure 4. This ability to simulate the quantum behaviour of atoms and molecules is hoped to offer new avenues for increasing our understanding of the world around us, and our ability to develop new medicines and materials!
 
 \begin{figure}[H]
   \begin{center}
-  \includegraphics[scale=1.2]{result.pdf}
+  \includegraphics[scale=1.35]{result.pdf}
   \caption{Computed $H_2$ energy curve, energy surface of molecular hydrogen as determined by both VQE and PEA}
   \end{center}
     

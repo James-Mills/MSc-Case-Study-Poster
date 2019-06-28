@@ -94,7 +94,7 @@
 % font size
 \renewcommand{\LARGE}{\fontsize{100}{120}\selectfont}
 \renewcommand{\Large}{\fontsize{45}{50}\selectfont}
-\renewcommand{\large}{\fontsize{35}{40}\selectfont}
+\renewcommand{\large}{\fontsize{40}{45}\selectfont}
 \renewcommand{\normalsize}{\fontsize{30}{35}\selectfont}
 \renewcommand{\footnotesize}{\fontsize{25}{35}\selectfont}
 \renewcommand{\small}{\fontsize{20}{23}\selectfont}
@@ -120,7 +120,7 @@
 \RequirePackage{mathspec}
 \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 
- % \setallmainfonts{Helvetica}
+ \setallmainfonts{Helvetica}
 \setsansfont{URW Gothic L}
 %\setallmainfonts{EB Garamond}
 \newfontfamily{\bannerfont}{URW Gothic L}[WordSpace=1.2]
