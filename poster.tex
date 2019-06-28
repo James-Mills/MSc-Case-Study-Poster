@@ -20,7 +20,7 @@
 % \affil[2]{TikZ, UCL}
 % \affil[*]{a.example@ucl.ac.uk}
 
-\begin{document}\large
+\begin{document}%\large
 
 \maketitle
 
@@ -74,9 +74,9 @@ The variational quantum eigensolver (VQE) and the phase estimation algorithm (PE
     
   \end{minipage}
   \qquad
-%   \begin{minipage}[c]{18em}
-  \begin{minipage}[c]{29em}
-  \large
+  \begin{minipage}[c]{20em}
+%   \begin{minipage}[c]{29em}
+  %\large
 
 The qubits used to run the algorithms were a type of charge qubit that is kept at very low temperatures. It is similar to the IBM qubit shown in Figure 1.
 
@@ -115,17 +115,17 @@ PEA is the algorithm estimate the value of index over exponential coefficient in
 
 \begin{figure}[H]
   \begin{center}
-%   \begin{minipage}[c]{15em}
-  \begin{minipage}[c]{18em}
-    % \includegraphics[width=15em]{VQEdiagram.pdf}
-    \includegraphics[width=18em]{VQEdiagram.pdf}
+   \begin{minipage}[c]{15em}
+%  \begin{minipage}[c]{18em}
+    \includegraphics[width=15em]{VQEdiagram.pdf}
+    % \includegraphics[width=18em]{VQEdiagram.pdf}
     \caption{VQE}
   \end{minipage}
   \qquad
-%   \begin{minipage}[c]{18em}
-  \begin{minipage}[c]{17em}
-    % \includegraphics[width=18em]{PEA.pdf}
-    \includegraphics[width=17em]{PEA.pdf}
+  \begin{minipage}[c]{15em}
+%   \begin{minipage}[c]{17em}
+    \includegraphics[width=15em]{PEA.pdf}
+    % \includegraphics[width=17em]{PEA.pdf}
     \caption{PEA}
   \end{minipage}
   \end{center}
@@ -141,7 +141,7 @@ The VQE was proven to work better than PEA because it gives more accurate result
 
 \begin{figure}[H]
   \begin{center}
-  \includegraphics[scale=1.5]{result.pdf}
+  \includegraphics[scale=1.2]{result.pdf}
   \caption{Computed $H_2$ energy curve, energy surface of molecular hydrogen as determined by both VQE and PEA}
   \end{center}
     
