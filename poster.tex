@@ -38,7 +38,7 @@ Simulating systems in quantum chemistry is too difficult for classical computers
 
 
 \begin{highlightbox}[UCLdarkblue!20!white]
-	\textbf{Qubit} A quantum bit of information. It is analogous to the classical bit which classical information is encoded in 0s and 1s. The information stored in a qubit can be represented by a state.
+	\textbf{Qubit} A quantum bit of information. Its classical counterpart, the bit represents classical information and is encoded in 0s and 1s. A qubit can be represented by a state.
 \end{highlightbox}
 
 \begin{highlightbox}[UCLstone!50!white]
@@ -91,24 +91,24 @@ The qubits used to run the algorithms were a type of charge qubit that is kept a
 The VQE algorithm uses the averages of the total energy so that the energy of a molecule can be calculated.
 
 \begin{highlightbox}[UCLpink!20!white]
-  \begin{enumerate}
-\item We start by preparing a state using a ``special" method. This method makes it possible for the algorithm run in the way that we want.
-\item We measure the total energy for each distance between the molecules. We must select the lowest value as we are focusing on the ground energy.
-\item A tool is then used to find more lower values of the total energy.
-\item Repeat until we reach the smallest value possible.
-\end{enumerate}
+  \begin{itemize}
+\item Firstly, we start by preparing a state using a ``special" method. This method makes it possible for the algorithm run in the way that we want.
+\item Secondly, we measure the total energy for each distance between the molecules. We must select the lowest value as we are focusing on the ground energy.
+\item After that, a tool is then used to find more lower values of the total energy.
+\item All steps are repeated until we reach the smallest value possible.
+\end{itemize}
 \end{highlightbox}
 
 PEA is the algorithm estimate the value of index over exponential coefficient in order to work out energy of a molecule.
 
 
 \begin{highlightbox}[UCLpurple!20!white]
-\begin{enumerate}
-\item Similarly to the VQE algorithm, we must prepare a state using another ``special" method that encodes information of system into a exponential coefficient. 
-\item Some equipment must be set up in a superposition of states - this will make it possible to measure the state.
-\item We use operations to set up the state and the apparatus so that it is ready to be measured. 
-\item Measure the state to find the lowest value of the total energy. We repeat this process until find an accurate value of the total energy.
-\end{enumerate}
+\begin{itemize}
+\item Similarly to the VQE algorithm, we must prepare a state using another ``special" method since these are two different algorithms. 
+\item Next, some ``magical" equipment must be set up in a superposition of states - this will make it possible to measure the state.
+\item Then, we use some operations to set up the state and the apparatus so that it is ready to be measured. 
+\item Finally, we measure the state to find the lowest value of the total energy. We repeat this process until find an accurate value of the total energy.
+\end{itemize}
 \end{highlightbox}
 
 
