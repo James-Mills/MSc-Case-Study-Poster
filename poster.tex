@@ -93,8 +93,8 @@ VQE uses the averages of the total energy to calculate the energy of a molecule.
 
 \begin{highlightbox}[UCLpink!20!white]
   \begin{enumerate}
-\item We start by preparing a state using a ``special" method. This method makes it possible for the algorithm run in the way that we want.
-\item Measure the total energy for each distance between the molecules. We must select the lowest value as we are focusing on the ground energy.
+\item Prepare a starting state. 
+\item Measure the total energy for each distance between molecules. We must select the lowest value (the ground energy).
 \item A tool is then used to find more lower values of the total energy.
 \item Repeat until we reach the smallest value possible.
 \end{enumerate}
@@ -105,7 +105,7 @@ PEA estimates the index value over exponential coefficients to calculate energy 
 
 \begin{highlightbox}[UCLpurple!20!white]
 \begin{enumerate}
-\item Similarly to the VQE algorithm, we must prepare a state using another ``special" method and encode information onto a exponential coefficient. 
+\item Prepare a starting state, and encode information onto an exponential coefficient. 
 \item Some equipment must be set up in a superposition of states - this will make it possible to measure the state.
 \item We use operations to set up the state and the apparatus so that it is ready to be measured. 
 \item Measure the state to find the lowest value of the total energy. We repeat this process until find an accurate value of the total energy.
